@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Thomas Ohashi's Blog</title>
+	<id>https://www.thomasohashi.com</id>
+	<link rel="alternate" href="https://www.thomasohashi.com"/>
+	<link rel="self" href="https://www.thomasohashi.com/blog/feed.xml"/>
+	<updated>2025-01-20T10:51:36-08:00</updated>
+	<author>
+		<name>Thomas Ohashi</name>
+	</author>
+	<entry>
+		<title>Blade Chimera looks to the past</title>
+		<link rel="alternate" type="text/html" href="https://www.thomasohashi.com/blog/blade-chimera-looks-to-the-past.html"/>
+		<id>8EBE74AD-0464-41A7-8616-97347FCF29DC</id>
+		<published>2025-01-20T10:51:36-08:00</published>
+		<updated>2025-01-20T10:51:36-08:00</updated>
+		<content type="html">
+			<h2>Blade Chimera looks to the past</h2>
+			
+			<p>Metroidvanias are, almost by definition, a derivative genre. Their DNA can be traced back to two games, <em>Super Metroid</em> and <em>Castlevania: Symphony of the Night</em>, and the formula is fairly simple. There’s a big map but you will need to find various items and upgrades to fully explore it.</p>
+			
+			<p>Most metroidvanias differentiate themselves by expanding on some element like combat (<em>Hollow Knight</em>), movement (<em>Ori</em>), and in some cases, even puzzles (<em>Animal Well</em>). <em>Blade Chimera</em> basically doesn’t do this, to the extent that I am inclined to say its subgenre is actually just “vania,” or perhaps more specifically, <em>Symphony of the Night</em>. All three of Team Ladybug’s metroidvanias are similar in this regard, but while <em>Blade Chimera</em> is the most polished it might be the least innovative.</p>
+			
+			<p>The long white haired protagonist Shin’s smooth flowy movement — emphasized by his smooth flowy animation — is peak Alucard, right down to the shadow trails on his dodge. The primary gimmick <em>Blade Chimera</em> is a floating sword companion — another nod to Alucard — and though Shin’s is more central to the story of the game, they even share a blue-green color scheme.</p>
+			
+			<p>Overall it feels great to play, and aside from one particularly dull section, I devoured the game and had a lot of fun with it. Each movement mechanic is extremely well considered, and if you use them creatively you can do some light sequence breaking, which I always appreciate. The ranged weapons were also a highlight and maybe the only thing that really felt fresh. I wish they leaned into them more.</p>
+			
+			<p>Unfortunately, when I start to think about it relative to the source of its inspiration, it seems lacking. I get it Team Ladybug. I too adore <em>Symphony of the Night</em>, and I am generally happy to play things that evoke it, but when I ask myself if I would have been better off replaying it instead of <em>Blade Chimera</em> the answer is an uncomfortable “probably.” There’s no great twist, the weapon diversity is decent but unremarkable, and Shin as far less charismatic than Alucard.</p>
+			
+			<p>Team Ladybug is presumably a small team with far less resources than Konami had, much of which must be devoted to visuals, so to some degree this makes sense. I do think it is possible that they will eventually produce something that surpasses Iga’s classic work, but I am also afraid that they are a little too content to live in its shadow, whether out of respect or for lack of imagination.</p>
+			
+			<p>I still genuinely do recommend this game as it is gorgeous and extremely playable, but if you’ve never experienced <em>Symphony of the Night</em> you should consider doing that instead.</p>
+		</content>
+	</entry>
+</feed>
