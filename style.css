@@ -49,11 +49,24 @@ p, h1, h2, h3, h4, h5, h6 {
 	--body-font: 'Atkinson Hyperlegible', sans-serif;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 #black {
 	--text-color: color(display-p3 1 1 1);
 	--muted-text-color: color(display-p3 0.866 0.866 0.866);
     --accent-color: color(display-p3 1 0.899 0.002);
 	--tertiary-color: color(display-p3 0.881 0.694 0.016);
+<<<<<<< HEAD
+=======
+=======
+#dark {
+	--text-color: color(display-p3 1 1 1);
+	--muted-text-color: color(display-p3 0.866 0.866 0.866);
+    --accent-color: color(display-p3 1 0.908 0.374);
+>>>>>>> main
+>>>>>>> main
     --background-color: #000000;
 }
 
@@ -61,7 +74,14 @@ p, h1, h2, h3, h4, h5, h6 {
 	--text-color: color(display-p3 0.231 0.231 0.231);
 	--muted-text-color: color(display-p3 0.467 0.426 0.482);
 	--accent-color: color(display-p3 0.873 0.419 1);
+<<<<<<< HEAD
 	--tertiary-color: color(display-p3 0.925 0.665 1);
+=======
+<<<<<<< HEAD
+	--tertiary-color: color(display-p3 0.925 0.665 1);
+=======
+>>>>>>> main
+>>>>>>> main
 	--background-color: color(display-p3 0.97 0.873 1);
 }
 
@@ -76,7 +96,14 @@ p, h1, h2, h3, h4, h5, h6 {
 	--text-color: color(display-p3 0.231 0.231 0.231);
 	--muted-text-color: color(display-p3 0.516 0.516 0.516);
 	--accent-color: color(display-p3 0.207 0.743 0.488);
+<<<<<<< HEAD
 	--tertiary-color: color(display-p3 0.746 0.893 0.823);
+=======
+<<<<<<< HEAD
+	--tertiary-color: color(display-p3 0.746 0.893 0.823);
+=======
+>>>>>>> main
+>>>>>>> main
 	--background-color: color(display-p3 1 1 1);
 }
 
@@ -84,40 +111,100 @@ p, h1, h2, h3, h4, h5, h6 {
 	--text-color: color(display-p3 0 0 0);
 	--muted-text-color: color(display-p3 0.443 0.443 0.443);
 	--accent-color: color(display-p3 0.877 0.07 0);
+<<<<<<< HEAD
 	--tertiary-color: color(display-p3 0.883 0.516 0.485);
+=======
+<<<<<<< HEAD
+	--tertiary-color: color(display-p3 0.883 0.516 0.485);
+=======
+>>>>>>> main
+>>>>>>> main
 	--background-color: color(display-p3 0.827 0.827 0.827);
 }
 
 @font-face {
 	font-family: "Cartridge Bold";
+<<<<<<< HEAD
 	src: url('fonts/Cartridge-Bold.woff2');
+=======
+<<<<<<< HEAD
+	src: url('fonts/Cartridge-Bold.woff2');
+=======
+	src: url('../fonts/Cartridge-Bold.otf');
+>>>>>>> main
+>>>>>>> main
 }
 
 @font-face {
 	font-family: "Cartridge Regular";
+<<<<<<< HEAD
 	src: url('fonts/Cartridge-Regular.woff2');
+=======
+<<<<<<< HEAD
+	src: url('fonts/Cartridge-Regular.woff2');
+=======
+	src: url('../fonts/Cartridge-Regular.otf');
+>>>>>>> main
+>>>>>>> main
 }
 
 @font-face {
 	font-family: "Atkinson Hyperlegible";
+<<<<<<< HEAD
 	src: url('fonts/AtkinsonHyperlegible-Regular.ttf');
+=======
+<<<<<<< HEAD
+	src: url('fonts/AtkinsonHyperlegible-Regular.ttf');
+=======
+	src: url('../fonts/AtkinsonHyperlegible-Regular.ttf');
+>>>>>>> main
+>>>>>>> main
 }
 
 @font-face {
 	font-family: "Atkinson Hyperlegible Italic";
+<<<<<<< HEAD
 	src: url('fonts/AtkinsonHyperlegible-Italic.ttf');
+=======
+<<<<<<< HEAD
+	src: url('fonts/AtkinsonHyperlegible-Italic.ttf');
+=======
+	src: url('../fonts/AtkinsonHyperlegible-Italic.ttf');
+>>>>>>> main
+>>>>>>> main
 }
 
 @font-face {
 	font-family: "Atkinson Hyperlegible Bold";
+<<<<<<< HEAD
 	src: url('fonts/AtkinsonHyperlegible-Bold.ttf');
+=======
+<<<<<<< HEAD
+	src: url('fonts/AtkinsonHyperlegible-Bold.ttf');
+=======
+	src: url('../fonts/AtkinsonHyperlegible-Bold.ttf');
+>>>>>>> main
+>>>>>>> main
 }
 
 @font-face {
 	font-family: "Atkinson Hyperlegible Bold Italic";
+<<<<<<< HEAD
 	src: url('fonts/AtkinsonHyperlegible-BoldItalic.ttf');
 }
 
+=======
+<<<<<<< HEAD
+	src: url('fonts/AtkinsonHyperlegible-BoldItalic.ttf');
+}
+
+=======
+	src: url('../fonts/AtkinsonHyperlegible-BoldItalic.ttf');
+}
+
+
+>>>>>>> main
+>>>>>>> main
 html {
 	background-repeat: no-repeat;
 	min-height: 100vh;
@@ -154,7 +241,14 @@ header a {
 
 header a:hover {
 	text-decoration: underline;
+<<<<<<< HEAD
 	text-decoration-color: var(--tertiary-color);
+=======
+<<<<<<< HEAD
+	text-decoration-color: var(--tertiary-color);
+=======
+>>>>>>> main
+>>>>>>> main
 	text-shadow: none;
 }
 
@@ -197,7 +291,14 @@ h3 {
 a {
 	color: var(--accent-color);
 	text-decoration: underline;
+<<<<<<< HEAD
 	text-decoration-color: var(--tertiary-color);
+=======
+<<<<<<< HEAD
+	text-decoration-color: var(--tertiary-color);
+=======
+>>>>>>> main
+>>>>>>> main
 }
 
 a:hover {
@@ -259,12 +360,27 @@ nav ul li {
 	transition: all .15s ease-in-out;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 .gallery a img:hover {
 	scale: 1.05;
 }
 
 .gallery a img:active {
 	scale: 0.95;
+<<<<<<< HEAD
+=======
+=======
+.gallery img:hover {
+	scale: 1.1;
+}
+
+.gallery img:active {
+	scale: 1.05;
+>>>>>>> main
+>>>>>>> main
 }
 
 @media only screen and (max-width: 800px) {
@@ -294,7 +410,14 @@ ul li::marker {
 
 .blog a {
 	color: var(--body-font);
+<<<<<<< HEAD
 	text-decoration-color: var(--muted-text-color);
+=======
+<<<<<<< HEAD
+	text-decoration-color: var(--muted-text-color);
+=======
+>>>>>>> main
+>>>>>>> main
 }
 
 .blog a:hover {
