@@ -51,7 +51,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 #black {
 	--text-color: color(display-p3 1 1 1);
-	--muted-text-color: color(display-p3 0.866 0.866 0.866);
+	--muted-text-color: color(display-p3 0.688 0.688 0.688);
     --accent-color: color(display-p3 1 0.899 0.002);
 	--tertiary-color: color(display-p3 0.881 0.694 0.016);
     --background-color: #000000;
@@ -59,7 +59,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 #purple {
 	--text-color: color(display-p3 0.231 0.231 0.231);
-	--muted-text-color: color(display-p3 0.467 0.426 0.482);
+	--muted-text-color: color(display-p3 0.585 0.535 0.604);
 	--accent-color: color(display-p3 0.873 0.419 1);
 	--tertiary-color: color(display-p3 0.925 0.665 1);
 	--background-color: color(display-p3 0.97 0.873 1);
@@ -67,8 +67,9 @@ p, h1, h2, h3, h4, h5, h6 {
 
 #blue {
 	--text-color: color(display-p3 1 1 1);
-	--muted-text-color: color(display-p3 0.74 0.965 1);
+	--muted-text-color: color(display-p3 0.776 0.97 1);
 	--accent-color: color(display-p3 0.419 0.921 1);
+	--tertiary-color: color(display-p3 0.776 0.97 1);
 	--background-color: color(display-p3 0 0.518 1);
 }
 
