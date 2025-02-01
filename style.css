@@ -302,7 +302,6 @@ nav ul li {
 	align-items: center;
 	grid-template-columns: 1fr 1fr 1fr;
 	gap: 20px;
-	text-align: center;
 }
 
 .gallery a {
@@ -325,6 +324,10 @@ nav ul li {
 
 .gallery a img:active {
 	scale: 1;
+}
+
+.title {
+	font-family: 'Atkinson Hyperlegible Bold', sans-serif;
 }
 
 @media only screen and (max-width: 800px) {
