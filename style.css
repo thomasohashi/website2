@@ -281,6 +281,7 @@ nav ul li {
 	align-items: center;
 	grid-template-columns: 1fr 1fr 1fr;
 	gap: 20px;
+	font-size: 0.8rem;
 }
 
 .gallery a {
@@ -303,6 +304,10 @@ nav ul li {
 
 .gallery a img:active {
 	scale: 1;
+}
+
+.gallery-item {
+	margin-bottom: 0;
 }
 
 .title {
