@@ -53,10 +53,10 @@ p, h1, h2, h3, h4, h5, h6 {
 
 #cool {
 	--text-color: white;
-	--muted-text-color: ;
-	--accent-color: color(display-p3 0.419 0.921 1);
+	--muted-text-color: color(display-p3 1 0.811 0.949);
+	--accent-color: color(display-p3 1 0.693 0.917);
 	--tertiary-color: ;
-	--background-color: linear-gradient(color(display-p3 0 0.373 1), color(display-p3 0 0.29 0.812));
+	--background-color: linear-gradient(color(display-p3 0.602 0.152 1), color(display-p3 0.35 0 0.672));
 }
 
 #black {
