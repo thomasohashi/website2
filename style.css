@@ -52,10 +52,9 @@ p, h1, h2, h3, h4, h5, h6 {
 /* Templates */
 
 #cool {
-	--text-color: white;
-	--muted-text-color: color(display-p3 1 0.811 0.949);
+	--primary-color: white;
 	--accent-color: color(display-p3 1 0.693 0.917);
-	--tertiary-color: ;
+	--tertiary-color: color(display-p3 0.817 0.582 0.894);
 	--background-color: linear-gradient(color(display-p3 0.602 0.152 1), color(display-p3 0.35 0 0.672));
 	background-attachment: fixed;
 }
@@ -101,10 +100,17 @@ html {
 body {
 	font-family: var(--body-font);
 	line-height: 1.2;
-	color: var(--text-color);
+	color: var(--primary-color);
 	background: var(--background-color);
 	margin-inline: auto;
 	width: 90%;
+}
+
+a {
+	color: var(--accent-color);
+	text-decoration: underline;
+	text-decoration-color: var(--tertiary-color);
+	text-underline-offset: 0.125rem;
 }
 
 .wide {
@@ -151,7 +157,7 @@ h1 {
 	margin-block-end: 0.25rem;
 	font-family: var(--heading-font);
 	font-weight: normal;
-	color: var(--text-color)
+	color: var(--primary-color)
 }
 
 h2 {
@@ -167,10 +173,7 @@ h3 {
 	font-size: 1rem;	
 }
 
-a {
-	color: var(--accent-color);
-	text-decoration: none;
-}
+
 
 a:hover {
 	text-shadow: 0 0 .125em var(--accent-color);
@@ -188,7 +191,7 @@ blockquote {
 	border-inline-start: 4px solid var(--accent-color);
 	padding-inline: 1rem;
 	font-size: 0.9rem;
-	color: var(--muted-text-color);
+	color: var(--tertiary-color);
 }
 
 cite {
@@ -202,6 +205,7 @@ nav {
 
 nav a {
 	text-decoration: none;
+	text-decoration-color: var(--tertiary-color);
 }
 
 nav ul {
@@ -303,6 +307,8 @@ nav ul li {
 
 .title {
 	font-family: 'Atkinson Hyperlegible Bold', sans-serif;
+	display: inline-block;
+	margin-block: 0.25rem 0;
 }
 
 @media only screen and (max-width: 800px) {
@@ -332,7 +338,7 @@ ul li::marker {
 
 .blog a {
 	color: var(--body-font);
-	text-decoration-color: var(--muted-text-color);
+	text-decoration-color: var(--tertiary-color);
 }
 
 .blog a:hover {
@@ -341,7 +347,7 @@ ul li::marker {
 }
 
 .byline {
-	color: var(--muted-text-color);
+	color: var(--tertiary-color);
 	/*
 	border-block-end: 2px dashed var(--accent-color);
 	*/
@@ -349,15 +355,27 @@ ul li::marker {
 
 hr {
 	border: none;
-	border-top: 3px dotted var(--text-color);
+	border-top: 3px dotted var(--primary-color);
+}
+
+.social {
+	margin-bottom: 0.5rem;
+}
+
+.social a {
+	text-decoration: none;
 }
 
 .icon {
-	fill: var(--text-color);
+	fill: var(--primary-color);
 	height: 1.5rem;
 	display: inline;
 	margin-inline: 10px;
 	overflow: visible;
+}
+
+.icon a {
+	text-decoration: none;
 }
 
 .icon:hover {
