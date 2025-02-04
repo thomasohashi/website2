@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title>Thomas Ohashi's Blog</title>
+	<title>thomas ohashi / blog</title>
 	<id>https://www.thomasohashi.com</id>
 	<link rel="alternate" href="https://www.thomasohashi.com"/>
 	<link rel="self" href="https://www.thomasohashi.com/blog/feed.xml"/>
@@ -10,12 +10,12 @@
 	</author>
 	<entry>
 		<title>Blade Chimera looks to the past</title>
-		<link rel="alternate" type="text/html" href="https://www.thomasohashi.com/blog/blade-chimera-looks-to-the-past.html"/>
+		<link rel="alternate" type="text/html" href="https://www.thomasohashi.com/blog/blade-chimera-is-stuck-in-the-past.html"/>
 		<id>8EBE74AD-0464-41A7-8616-97347FCF29DC</id>
 		<published>2025-01-20T10:51:36-08:00</published>
 		<updated>2025-01-20T10:51:36-08:00</updated>
 		<content type="html">
-			<h2>Blade Chimera looks to the past</h2>
+			<h2>Blade Chimera is stuck in the past</h2>
 			
 			<p>Metroidvanias are, almost by definition, a derivative genre. Their DNA can be traced back to two games, <em>Super Metroid</em> and <em>Castlevania: Symphony of the Night</em>, and the formula is fairly simple. There’s a big map but you will need to find various items and upgrades to fully explore it.</p>
 			
