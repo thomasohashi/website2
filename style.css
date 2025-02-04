@@ -170,7 +170,8 @@ h2 {
 }
 
 h3 {
-	font-size: 1rem;	
+	font-size: 1rem;
+	font-style: italic;
 }
 
 
@@ -201,9 +202,11 @@ cite {
 nav {
 	font-family: "Cartridge Bold", sans-serif;
 	margin-inline: auto;
+	color: var(--accent-color);
 }
 
 nav a {
+	color: var(--primary-color);
 	text-decoration: none;
 	text-decoration-color: var(--tertiary-color);
 }
@@ -278,7 +281,7 @@ nav ul li {
 
 .gallery {
 	display: grid;
-	align-items: center;
+	align-items: top;
 	grid-template-columns: 1fr 1fr 1fr;
 	gap: 20px;
 	font-size: 0.8rem;
@@ -314,6 +317,7 @@ nav ul li {
 	font-family: 'Atkinson Hyperlegible Bold', sans-serif;
 	display: inline-block;
 	margin-block: 0.25rem 0;
+	color: var(--tertiary-color);
 }
 
 @media only screen and (max-width: 800px) {
@@ -373,7 +377,7 @@ hr {
 
 .icon {
 	fill: var(--primary-color);
-	height: 1.5rem;
+	height: 1.2rem;
 	display: inline;
 	margin-inline: 10px;
 	overflow: visible;
