@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>thomas ohashi / blog</title>
-	<id>https://www.thomasohashi.com/</id>
-	<link rel="self" href="https://www.thomasohashi.com/blog/feed.atom"/>
+	<id>https://www.thomasohashi.com</id>
 	<link rel="alternate" href="https://www.thomasohashi.com"/>
+	<link rel="self" href="https://www.thomasohashi.com/blog/feed.atom"/>
 	<updated>2025-01-20T10:51:36-08:00</updated>
 	<author>
 		<name>Thomas Ohashi</name>
