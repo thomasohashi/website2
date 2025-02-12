@@ -272,10 +272,17 @@ nav ul li {
 	padding: 5px;
 }
 
-.gallery {
+.preview {
 	display: grid;
 	align-items: top;
 	grid-template-columns: 1fr 1fr 1fr;
+	gap: 20px;
+}
+
+.gallery {
+	display: grid;
+	align-items: top;
+	grid-template-columns: 1fr 1fr;
 	gap: 20px;
 	font-size: 0.8rem;
 }
@@ -286,19 +293,19 @@ nav ul li {
 	padding: 0;
 }
 
-.gallery img {
+.preview img, .gallery img {
 	margin: 0;
 	padding: 0;
 	border-radius: 5px;
 	transition: all .15s ease-in-out;
 }
 
-.gallery a img:hover {
+.preview a img:hover, .gallery a img:hover {
 	scale: 1.03;
 	box-shadow: 0 0 10px var(--tertiary-color);
 }
 
-.gallery a img:active {
+.preview a img:active, .gallery a img:active {
 	scale: 1;
 }
 
@@ -314,13 +321,17 @@ nav ul li {
 }
 
 @media only screen and (max-width: 800px) {
-	.gallery {
+	.preview {
 		grid-template-columns: 1fr 1fr;
+		gap: 10px;
 	}
 }
 
 @media only screen and (max-width: 400px) {
 	.gallery {
+		grid-template-columns: 1fr;
+	}
+	.preview {
 		grid-template-columns: 1fr;
 	}
 }
