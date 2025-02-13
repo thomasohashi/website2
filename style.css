@@ -145,6 +145,7 @@ main * {
 }
 
 footer {
+	font-family: "Cartridge Regular";
 	padding-bottom: 1rem;
 	font-size: 0.8rem;
 }
@@ -265,29 +266,22 @@ nav ul li {
 	margin-right: 4px;
 }
 
-.feature {
-	max-height: 320px;
-	margin-inline: auto;
-	border-radius: 10px;
-	padding: 5px;
-}
-
-.preview {
+.gallery, .preview {
 	display: grid;
 	align-items: top;
-	grid-template-columns: 1fr 1fr 1fr;
-	gap: 20px;
-}
-
-.gallery {
-	display: grid;
-	align-items: top;
-	grid-template-columns: 1fr 1fr;
 	gap: 20px;
 	font-size: 0.8rem;
 }
 
-.gallery a {
+.gallery {
+	grid-template-columns: 1fr 1fr;
+}
+
+.preview {
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gallery a, .preview a {
 	text-decoration: none;
 	margin: 0;
 	padding: 0;
@@ -310,7 +304,7 @@ nav ul li {
 }
 
 .gallery-item {
-	margin-bottom: 0;
+	margin-block: 0;
 }
 
 .title {
@@ -321,17 +315,13 @@ nav ul li {
 }
 
 @media only screen and (max-width: 800px) {
-	.preview {
-		grid-template-columns: 1fr 1fr;
+	.gallery, .preview {
 		gap: 10px;
 	}
 }
 
-@media only screen and (max-width: 400px) {
-	.gallery {
-		grid-template-columns: 1fr;
-	}
-	.preview {
+@media only screen and (max-width: 480px) {
+	.gallery, .preview {
 		grid-template-columns: 1fr;
 	}
 }
