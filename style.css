@@ -53,9 +53,9 @@ p, h1, h2, h3, h4, h5, h6 {
 
 #cool {
 	--primary-color: white;
-	--accent-color: color(display-p3 1 0.693 0.917);
-	--tertiary-color: color(display-p3 0.817 0.582 0.894);
-	--background-color: linear-gradient(color(display-p3 0.602 0.152 1), color(display-p3 0.35 0 0.672));
+	--accent-color: color(display-p3 1 0.851 0.901);
+	--tertiary-color: color(display-p3 1 0.73 0.865);
+	--background-color: linear-gradient(color(display-p3 0.566 0 0.963), color(display-p3 0.309 0 0.593));
 	background-attachment: fixed;
 }
 
