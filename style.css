@@ -391,3 +391,9 @@ hr {
 		grid-template-columns: 1fr;
 	}
 }
+
+@supports (-webkit-touch-callout: none) {
+	body {
+		background: color(display-p3 0.462 0 0.787);
+	}
+}
