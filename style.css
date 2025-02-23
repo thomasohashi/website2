@@ -66,6 +66,8 @@ p, h1, h2, h3, h4, h5, h6 {
 	--tertiary-color: color(display-p3 0.836 0.896 0.1);
 	--background-color: linear-gradient(color(display-p3 0.126 0.619 0.332) 0%, color(display-p3 0.043 0.279 0.069) 100%);
 	--backup-color: color(display-p3 0.072 0.499 0.25);
+	--box-color: color(display-p3 0.045 0.662 0.302);
+
 }
 
 /* Fonts */
@@ -312,7 +314,7 @@ nav ul li {
 	border-radius: 10px;
 }
 
-.gallery-container h3 a {
+.gallery-container h3 {
 	margin-block: 0 0.5rem;
 	color: var(--primary-color);
 }
@@ -465,6 +467,12 @@ hr {
 
 .icon:hover {
 	fill: var(--tertiary-color);
+}
+
+.youtube {
+	display: block;
+	margin-inline: auto;
+	max-width: 90%;
 }
 
 /* Screen size adjustments */
