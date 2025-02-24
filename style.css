@@ -63,7 +63,7 @@ p, h1, h2, h3, h4, h5, h6 {
 #garden {
 	--primary-color: white;
 	--accent-color: color(display-p3 0.949 1 0.159);
-	--tertiary-color: color(display-p3 0.836 0.896 0.1);
+	--tertiary-color: color(display-p3 0.725 0.959 0.109);
 	--background-color: linear-gradient(color(display-p3 0.126 0.619 0.332) 0%, color(display-p3 0.043 0.279 0.069) 100%);
 	--backup-color: color(display-p3 0.072 0.499 0.25);
 	--box-color: color(display-p3 0.045 0.662 0.302);
@@ -179,14 +179,14 @@ h1 {
 h2 {
 	margin-block-start: 1rem;
 	margin-block-end: 0.5rem;
-	font-size: 1.25em;
+	font-size: 1.5em;
 	font-family: var(--heading-font);
 	font-weight: normal;
 	color: var(--accent-color);
 }
 
 h3 {
-	font-size: 1rem;
+	font-size: 1.25rem;
 	font-style: italic;
 }
 
@@ -489,6 +489,9 @@ hr {
 }
 
 @media only screen and (max-width: 560px) {
+	html {
+		font-size: 20px;
+	}
 	.gallery-grid, .portfolio-grid, .now-grid {
 		grid-template-columns: 1fr;
 	}
