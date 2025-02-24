@@ -319,6 +319,13 @@ nav ul li {
 	color: var(--primary-color);
 }
 
+.gallery-container hr {
+	border: none;
+	border-top: 2px solid var(--accent-color);
+	margin-block: 0 1rem;
+	margin-inline: auto;
+}
+
 .gallery-grid {
 	display: grid;
 	align-items: top;
