@@ -449,6 +449,11 @@ ul li::marker {
 	*/
 }
 
+.blog-image {
+	border-radius: 10px;
+	width: 480px;
+}
+
 hr {
 	border: none;
 	border-top: 2px dashed var(--primary-color);
