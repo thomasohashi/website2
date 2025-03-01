@@ -67,7 +67,15 @@ p, h1, h2, h3, h4, h5, h6 {
 	--background-color: linear-gradient(color(display-p3 0.126 0.619 0.332) 0%, color(display-p3 0.043 0.279 0.069) 100%);
 	--backup-color: color(display-p3 0.072 0.499 0.25);
 	--box-color: color(display-p3 0.045 0.662 0.302);
+}
 
+#bsod {
+	--primary-color: white;
+	--accent-color: color(display-p3 0.653 1 0.991);
+	--tertiary-color: color(display-p3 0.286 0.885 0.869);
+	--background-color: linear-gradient(color(display-p3 0.025 0.506 0.715) 0%, color(display-p3 0 0.187 0.343) 100%);
+	--backup-color: color(display-p3 0.034 0.381 0.477);
+	--box-color: color(display-p3 0.187 0.696 0.837);
 }
 
 /* Fonts */
