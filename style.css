@@ -55,8 +55,7 @@ p, h1, h2, h3, h4, h5, h6 {
 	--primary-color: white;
 	--accent-color: color(display-p3 1 0.851 0.901);
 	--tertiary-color: color(display-p3 1 0.729 0.863);
-	--background-color: linear-gradient(color(display-p3 0.608 0 0.963) 0%, color(display-p3 0.329 0 0.593) 100%);
-	--backup-color: color(display-p3 0.462 0 0.787);
+	--background-color: color(display-p3 0.462 0 0.787);
 	--box-color: color(display-p3 0.634 0.038 0.927);
 }
 
@@ -64,8 +63,7 @@ p, h1, h2, h3, h4, h5, h6 {
 	--primary-color: white;
 	--accent-color: color(display-p3 0.949 1 0.159);
 	--tertiary-color: color(display-p3 0.725 0.959 0.109);
-	--background-color: linear-gradient(color(display-p3 0.126 0.619 0.332) 0%, color(display-p3 0.043 0.279 0.069) 100%);
-	--backup-color: color(display-p3 0.072 0.499 0.25);
+	--background-color: color(display-p3 0.107 0.434 0.244);
 	--box-color: color(display-p3 0.045 0.662 0.302);
 }
 
@@ -74,7 +72,6 @@ p, h1, h2, h3, h4, h5, h6 {
 	--accent-color: color(display-p3 0.725 0.95 1);
 	--tertiary-color: color(display-p3 0.536 0.868 1);
 	--background-color: color(display-p3 0.045 0.473 0.872);
-	--backup-color: color(display-p3 0.045 0.473 0.872);
 	--box-color: color(display-p3 0.286 0.656 1);
 }
 
@@ -511,11 +508,5 @@ hr {
 	}
 	.gallery-grid, .portfolio-grid, .now-grid {
 		grid-template-columns: 1fr;
-	}
-}
-
-@supports (-webkit-touch-callout: none) {
-	body {
-		background: var(--backup-color);
 	}
 }
