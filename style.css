@@ -316,7 +316,7 @@ nav ul li {
 .gallery-container {
 	background: var(--box-color);
 	padding: 1rem;
-	border-radius: 15px;
+	border-radius: 10px;
 }
 
 .gallery-container h3 {
