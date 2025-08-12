@@ -133,7 +133,7 @@ a {
 	text-underline-offset: 0.125rem;
 }
 
-#wide {
+#medium {
 	max-width: 960px;
 }
 
@@ -313,22 +313,28 @@ nav ul li {
 
 /* Grids */
 
-.gallery-container {
-	background: var(--box-color);
-	padding: 20px;
-	border-radius: 5px;
+.test-grid {
+	max-width: 1200px;
+	display: flex;
+	gap: 1rem;
 }
 
-.gallery-container h3 {
-	margin-block: 0 0.5rem;
-	color: var(--primary-color);
+.test-grid * {
+	margin-block: 0;
 }
 
-.gallery-container hr {
-	border: none;
-	border-top: 2px solid var(--accent-color);
-	margin-block: 0 1rem;
-	margin-inline: auto;
+.test-grid > .beer-label {
+	flex: 1;
+}
+
+.test-grid > .beer-can {
+	flex: 0.8;	
+}
+
+.test-grid > div > img {
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
 }
 
 .gallery-grid {
@@ -351,7 +357,7 @@ nav ul li {
 	align-items: top;
 	gap: 20px;
 	grid-template-columns: 1fr 1fr;
-	margin-bottom: 0;
+	margin-bottom: 1rem;
 }
 
 .gallery-grid a, .portfolio-grid a {
